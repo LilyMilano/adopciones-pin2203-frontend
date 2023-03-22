@@ -1,0 +1,68 @@
+#aboutthem {
+    height: 100vh;
+    background-image:
+        linear-gradient(
+            to right, 
+            #F2F4F1,
+            #F2F4F1 70%,
+            #408080 70%,
+            #408080 70%,
+            #408080 70%
+        );
+}
+
+#aboutthem-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: calc(60%) calc(72vh);
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: calc(14vh);
+    padding-bottom: calc(14vh);
+}
+
+#aboutthem-text p {
+    max-width: 350px;
+}
+
+#aboutthem-text h2 {
+    margin: 0;
+}
+
+#aboutthem-text h6 {
+    margin: 0;
+}
+.carousel-base {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#carousel-1 {
+    background-color: #DB7093;
+}
+
+#carousel-2 {
+    background-color: #924e65;
+    color: white;
+}
+@media only screen and (min-width: 768px) { 
+    #aboutthem-image {
+        background-image: url(sobre-ellos.jpg);
+        padding-left: calc(20%);
+        padding-right: calc(20%);
+        align-items: flex-end;
+    }
+ }
+
+ @media only screen and (max-width: 600px) { 
+    #aboutthem-image {
+        background-image: none;
+        padding-left: calc(5%);
+        padding-right: calc(5%);
+        padding-top: calc(4vh);
+        padding-bottom: calc(4vh);
+        align-items: center;
+    }
+ }

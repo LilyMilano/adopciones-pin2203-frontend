@@ -1,0 +1,81 @@
+header {
+    height: calc(100vh);
+    position: static;
+}
+.img-carousel {
+    height: calc(100vh);
+}
+.text-carousel {
+    position: absolute;
+    top: calc(100vh - 65vh);
+    z-index: 1000;
+    color: white;
+}
+#home h1 {
+    margin: 0;
+    text-shadow: 1px 1px 2px black;
+}
+#home h6 {
+    margin: 0;
+    text-shadow: 1px 1px 2px black;
+}
+#home-read-more {
+    border-radius: 50px;
+    height: 45px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #DB7093;
+    border: 0;
+}
+#home-read-more:hover {
+    background-color: #f08aac;
+}
+#home .carousel-control-prev-icon {
+    display: none;
+}
+#home .carousel-control-next-icon {
+    display: none;
+}
+#home .carousel-indicators {
+    position: absolute;
+    top: calc(100vh - 25vh);
+    left: calc(16vh);
+    margin: 0px;
+    justify-content: left;
+}
+#home .carousel-indicators button{
+    border-radius: 100%;
+    height: 7px;
+    width: 7px;
+    margin: 5px;
+}
+
+.c1{
+    background-image: url(carousel-image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.c2{
+    background-image: url(carousel-image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.c3{
+    background-image: url(carousel-image3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+@media only screen and (min-width: 768px) { 
+    .text-carousel {
+        left: calc(16vh);
+    }
+ }
+
+ @media only screen and (max-width: 600px) { 
+    .text-carousel {
+        left: calc(6vh);
+    }
+ }
