@@ -111,6 +111,9 @@ function Contact() {
         <section id='contact'>
             <Container>
                 <Row>
+                    <Col md={6} className='contact-img my-4 d-block d-md-none'>
+                        <img src={Image} alt='contact' className="img-fluid rounded"></img>
+                    </Col>
                     <Col md={6} className='my-4'>
                         <h2>Regálate amor</h2>
                         <h2 style={{color: '#DB7093'}}>¡Contáctanos!</h2>
@@ -124,8 +127,8 @@ function Contact() {
                         </Form>
 
                     </Col>
-                    <Col md={6} className='contact-img my-4'>
-                        <img src={Image} alt='contact'></img>
+                    <Col md={6} className='contact-img my-4 d-none d-md-block'>
+                        <img src={Image} alt='contact' className="img-fluid rounded"></img>
                     </Col>
                 </Row>
             </Container>

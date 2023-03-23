@@ -7,6 +7,7 @@ function AboutThem() {
     <section id="aboutthem">
       <div id="aboutthem-image">
         <div id="aboutthem-text">
+          <img src="/static/media/sobre-ellos.b05322e5ff0162dd0732.jpg" alt="" className="img-fluid rounded d-md-none d-block mb-3" />
           <Carousel controls={false} slide={false}>
             <Carousel.Item className='carousel-base' id='carousel-1'>
               <h6>Nuestras mascotas</h6>

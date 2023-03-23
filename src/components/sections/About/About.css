@@ -1,33 +1,38 @@
 #about {
-    height: 100vh;
-    padding-top: 30px;
+	height: 100vh;
+	padding-top: 30px;
 }
 #about h1 {
-    margin: 0;
+	margin: 0;
 }
 #about p {
-    margin-top: 30px;
+	margin-top: 30px;
 }
 
 .about-text > div {
-    padding-left: 2rem;
-    padding-right: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 #about svg {
-    position: absolute;
-    top: calc(200vh - 80vh);
-    left: 0;
+	position: absolute;
+	top: calc(200vh - 80vh);
+	left: 0;
 }
-@media only screen and (min-width: 768px) { 
-    .about-text-container {
-        height: 100vh;
-    }
- }
 
- @media only screen and (max-width: 767px) { 
-    #about {
-        height: 100%;
-        padding: 60px 0;
-    }
- }
+.text-justified {
+	text-align: justify !important;
+}
+
+@media only screen and (min-width: 768px) {
+	.about-text-container {
+		height: 100vh;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#about {
+		height: 100%;
+		padding: 60px 0;
+	}
+}
